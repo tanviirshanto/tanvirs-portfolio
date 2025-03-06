@@ -20,15 +20,19 @@ const HeroSection = () => {
               Hello, I&apos;m{" "}
             </span>
             <br></br>
+           
             <TypeAnimation
               sequence={["Tanvir", 1000, "Web Developer", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              className="text-nowrap"
             />
+           
+            
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Creative full stack developer passionate about crafting seamless
+            Creative full stack developer crafting seamless
             digital experiences.
           </p>
           <div>

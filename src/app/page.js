@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       {/* <Navbar /> */}
-      <div className="fixed top-0 left-0 right-0 z-[1000] flex flex-wrap items-center justify-end py-1 bg-[#002233] w-full">
+      <div className="fixed top-0 left-0 right-0 z-[1000] text-sm lg:text-lg  flex  items-center lg:justify-end py-1 bg-[#002233] w-full">
       <div className="flex items-center  mx-3  ">
       <IoIosCall/>
         <a
@@ -36,7 +36,7 @@ export default function Home() {
         </a>
       </div>
     </div>
-      <div className="container lg:h-[100ve] mt-24 mx-auto px-12 py-4">
+      <div className="container lg:h-[100ve] mt-20 lg:mt-24 mx-auto px-8 lg:px-12 py-4">
         <HeroSection />
         {/* <AchievementsSection /> */}
         <ProjectsSection />
